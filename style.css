@@ -1,0 +1,49 @@
+div.intro-box {
+  background-color: black;
+  width: 100%;
+  background-image: url("https://cdn.glitch.com/925c43fc-2e23-4622-a12e-2a1d492356f5%2Fsyringe-and-pills-on-blue-background-3936421.jpg?v=1586406815613");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+@media only screen and (max-width: 600px) {
+  div.intro-box {
+    background-size: auto 100%;/*Small screen? Fill height!*/
+  }
+}
+th {
+  width: 33.3%;
+}
+.whitetext{
+  color: white;
+}
+div.dhhs-intro {
+  width: 80%;
+}
+.take-action{
+  font-size: 1.2em;
+  text-align: center;
+}
+#big-statement{
+  line-height: 1em;
+  transition: 1s;
+  font-size: 3em;
+  font-family: 'Gotu', sans-serif;
+  color: white;
+}
+#big-statement:hover{
+  font-size: 4em;
+}
+body {
+  line-height: 2.5em;
+}
+div.box{
+  /*background-color: black;*/
+  background-color: rgba(255,255,255,0.3);}
+h2.featured-intro{
+  font-size: 38px;
+  color: white;
+}
+h2.smaller-statement{
+  font-size: 35px;
+  color: white;
+}
